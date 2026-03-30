@@ -1,24 +1,21 @@
 # A7OM--MCP
 
-**ATOM MCP Server** — Real-time AI inference pricing intelligence powered by [a7om.com](https://www.a7om.com).
+**ATOM MCP Server** — Live AI inference pricing intelligence powered by [a7om.com](https://www.a7om.com).
 
-This **Model Context Protocol (MCP)** server enables AI agents to query live inference costs, benchmarks, and metrics across the ecosystem — perfect for cost-aware agents, FinOps, and developers optimizing LLM workloads.
+This **Model Context Protocol (MCP)** server enables AI agents to query live inference costs, benchmarks, and metrics across the AI inference market. Built for cost-aware agents, FinOps teams, and developers optimizing LLM workloads.
 
 ### Key Features
-- Live aggregation from **40+ vendors** and **1600+ SKUs** (text, image, multimodal)
-- **AIPI indexes** (global text, open-source, multimodal, etc.) with volatility tracking
-- KPIs: output/input price ratios, caching discounts (~69%), open-source savings (up to 82%), context window penalties
-- 8 tools total: 4 free + 4 PRO (e.g., `search_models`, `get_kpis`, `get_index_benchmarks`, `compare_prices`, `get_model_detail`)
-- Native MCP compatibility: Claude, Cursor, Windsurf, and any MCP-supporting agent/client
+- Live aggregation from **47+ vendors** and **2,600+ SKUs** (text, image, multimodal, audio, video, voice)
+- **14 AIPI indexes** (global text, open source, multimodal, flagship, reasoning, and more) with weekly volatility tracking
+- Market KPIs: output/input price ratios, caching discounts, open source savings, context window cost curve
+- 8 tools total: 4 free + 4 PRO (search_models, get_kpis, get_index_benchmarks, compare_prices, get_model_detail)
+- Native MCP compatibility: Claude, Cursor, Windsurf, and any MCP-supporting agent or client
 
 ### Why Use It?
-Track market changes, find the cheapest high-context models, avoid surprises in production costs, and make agents smarter about budget.
+Stop guessing on inference costs. Track market changes, find the cheapest high-context models, avoid surprises in production, and make your agents smarter about spend. The AI inference market now has an independent benchmark.
 
 ### Get Started
-- Live MCP endpoint & full docs: https://www.a7om.com/mcp
-- Terminal dashboards & API feed: https://www.a7om.com/terminal or /feed
-- Free tier available — sign up at a7om.com to get started
+- Live MCP endpoint and full docs: https://www.a7om.com/mcp
+- Run locally: npx atom-mcp-server
+- MCP PRO: $49/mo at a7om.com/mcp
 
-Feedback, feature requests, and contributions welcome! Issues/PRs open. 🚀
-
-Built by A7OM — The Global Price Benchmark for AI Inference.
