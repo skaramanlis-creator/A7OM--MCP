@@ -18,3 +18,24 @@ Stop guessing on inference costs. Track market changes, find the cheapest high-c
 - Live MCP endpoint and full docs: https://www.a7om.com/mcp
 - Run locally: npx atom-mcp-server
 - MCP PRO: $49/mo at a7om.com/mcp
+- **Claude Desktop** — add to claude_desktop_config.json:
+```json
+{
+  "mcpServers": {
+    "atom": {
+      "command": "npx",
+      "args": ["atom-mcp-server"]
+    }
+  }
+}
+```
+
+- **Cursor** — add to .cursor/mcp.json:
+```json
+{
+  "atom": {
+    "command": "npx",
+    "args": ["atom-mcp-server"]
+  }
+}
+```
